@@ -26,8 +26,8 @@ docker run --name online-exam-db -p 5432:5432 -e POSTGRES_DB=online-exam -e POST
 
 ## Links úteis
 
--[Tutorial Parte - 1](https://auth0.com/blog/using-python-flask-and-angular-to-build-modern-apps-part-1).
--[WSL  instalação](https://docs.microsoft.com/pt-br/windows/wsl/install-win10).
+- [Tutorial Parte - 1](https://auth0.com/blog/using-python-flask-and-angular-to-build-modern-apps-part-1).
+- [WSL  instalação](https://docs.microsoft.com/pt-br/windows/wsl/install-win10).
 
 ## Requisitos
 Docker
