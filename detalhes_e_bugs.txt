@@ -59,7 +59,7 @@ POST,GET. usaremos o POST para criar elementos em nossa tabela e o GET para recu
 Rode a paplicação como indicado no tutoria.
 
 Ao tentar dar um GET no servidor já temos nosso primeiro bug.
-<<bug_data.png>>
+
 Fácil de resolver, vamos editar os trechos de codico retirando o .data
 
 abra o browser e tente acessar seu host : http://localhost:5000/exams
@@ -80,3 +80,9 @@ Segundo commit !
 git add . && git commit -m "integrating Flask RESTful endpoints and SQLAlchemy"
 
 
+Agora iremos fazer a parte de CORS, nesta etapa o objetivo é permitir a cominicação multplataforma sem problemas para o front-end.
+CORS -  compartilhamento de recursos com origem diferentes.
+
+Instale a biblioteca flask-CORS
+$ pipenv install flask-cors
+declare a biblioteca no topo da main e passe o app como parametro, assim como indicado no tutorial.

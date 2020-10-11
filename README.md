@@ -44,7 +44,8 @@ $ docker run --name online-exam-db -p 5432:5432 -e POSTGRES_DB=online-exam -e PO
 - Docker
 - Python 3.8
 
-# Leituras interessantes.
+# Temas abordados interessantes.
 - Framework web com Python: [Jango ou Flask ?](https://www.treinaweb.com.br/blog/django-ou-flask-eis-a-questao)
 - Um pouco sobre Cross-Origin Resource Sharing [(CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-- Mão na massa com docker: Codigo Aberto [Chanel Youtube](https://www.youtube.com/watch?v=97jWpWp4Pnc&ab_channel=C%C3%B3digoFonteTV)
+- Mão na massa com docker: Codigo Aberto [Youtube](https://www.youtube.com/watch?v=97jWpWp4Pnc&ab_channel=C%C3%B3digoFonteTV)
+- Workflow com Pipenv por [@wilfilho](https://medium.com/@wilfilho/porque-os-desenvolvedores-python-devem-usar-o-pipenv-ae3d3154c44) 
