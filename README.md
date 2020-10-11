@@ -4,7 +4,7 @@ Construção de uma aplicação com três partes, backend (este repositiório) e
 
 ### Jornada de aprendizado
 
-Como eu sempre reclamo que os tutoriais pulam as partes que tem bug, decidi relatar neste arquivo << [Link em breve] >> cada erro e como eu contornei(ou tentei).
+Como eu sempre reclamo que os tutoriais pulam as partes que tem bug, decidi relatar neste arquivo [detalhes e bugs](https://github.com/TiagoGIM/Backend-Flask-Docker/blob/dev/detalhes_e_bugs.txt) cada erro e como eu contornei(ou tentei).
 
 ## Ambiente de desenvolvimento
 libs usadas estão em [requirements.txt](https://github.com/TiagoGIM/Backend-Flask-Docker/blob/dev/requirements.txt)
