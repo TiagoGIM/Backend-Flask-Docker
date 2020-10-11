@@ -9,7 +9,7 @@ Como eu sempre reclamo que os tutoriais pulam as partes que tem bug, decidi rela
 ## Ambiente de desenvolvimento
 libs usadas estão em [requirements.txt](https://github.com/TiagoGIM/Backend-Flask-Docker/blob/dev/requirements.txt)
 
-O desenvolvimento foi feito no windows com subsitema linux (WSL)
+O desenvolvimento foi feito no windows com subsistema linux (WSL).
 ```
 ├── Backend
 |   ├──scr
@@ -31,3 +31,4 @@ docker run --name online-exam-db -p 5432:5432 -e POSTGRES_DB=online-exam -e POST
 
 ## Requisitos
 Docker
+Python 3.8
