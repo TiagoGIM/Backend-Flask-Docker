@@ -9,7 +9,7 @@ Como eu sempre reclamo que os tutoriais pulam as partes que tem bug, decidi rela
 ## Ambiente de desenvolvimento
 libs usadas estão em [requirements.txt](link)
 
-O desenvolvimento foi feito no windows com substema linux (WSL)
+O desenvolvimento foi feito no windows com subsitema linux (WSL)
 ```
 ├── Backend
 |   ├──scr
