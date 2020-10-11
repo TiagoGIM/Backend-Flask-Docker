@@ -10,13 +10,14 @@ Como eu sempre reclamo que os tutoriais pulam as partes que tem bug, decidi rela
 libs usadas estão em [requirements.txt](link)
 
 O desenvolvimento foi feito no windows com substema linux (WSL)
+```
 ├── Backend
 |   ├──scr
 |       ├──entities
 |           ├──entity.py
 |           ├──exam.py
 |   ├──main.py
-
+```
 
 ## Banco de dados
 
