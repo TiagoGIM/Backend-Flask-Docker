@@ -35,7 +35,6 @@ crie o arquivo main.py para fazer uma simples edição no databasa.
 
 saida :
 
-### Exams:
 (1) SQLAlchemy Exam - Test your knowledge about SQLAlchemy.
 faremos o primeiro commit 
 
@@ -45,5 +44,39 @@ Eu pessoalmente sou contra adicionar tudo "git add ."
 Então é sempre bom ter um .gitignore ou add file por file.
 >> touch .gitignore
 então adicione os arquivos que não precisam estar no github
+
+Agora vamos dar inicio ao servidor, instalei dentro do env o marshmallow e o flask.
+
+>> pipenv install flask marshmallow
+
+marshmallow é quem lidará com os dados em formato JSON.
+
+edite os arquivos main.py e exam.py como indicado no tutorial.
+(deixei o arquivo main.py antigo como "teste" =D)
+
+Agora nossa applicação consegue se comunicar com o banco de dados e ainda aceitar
+POST,GET. usaremos o POST para criar elementos em nossa tabela e o GET para recupera-los.
+Rode a paplicação como indicado no tutoria.
+
+Ao tentar dar um GET no servidor já temos nosso primeiro bug.
+<<bug_data.png>>
+Fácil de resolver, vamos editar os trechos de codico retirando o .data
+
+abra o browser e tente acessar seu host : http://localhost:5000/exams
+
+Em seguida se correr tudo bem faça um post pelo terminal mesmo:
+
+curl -X POST -H 'Content-Type: application/json' -d '{
+  "title": "Primeiro Post feito via Flask",
+  "description": "Usaremos o database como historico de posts =D."
+}' localhost:5000/exams
+
+Agora novamente no browser teste sua api.
+
+Aqui deu tudo certo (tirando o bug do ".data")
+
+Segundo commit !
+(antes de dar  o git add . adicione src/entities/__pycache__/ e src/__pycache__/ ao seu gitignore)
+git add . && git commit -m "integrating Flask RESTful endpoints and SQLAlchemy"
 
 
