@@ -1,6 +1,8 @@
 # Backend-Flask-Docker
 
-Construção de uma aplicação com três partes, backend (este repositiório) em Python, o front-end será feito com o Angular cli e os dados persistentes ficarão em um servidor que rodará em um docker.
+Construção de uma aplicação com três partes, backend (este repositiório) em Python, o front-end será feito com o Angular cli(node.js) e os dados persistentes ficarão em um servidor que rodará em um container (docker).
+
+O objetivo é transformar todas as partes em containers.
 
 ### Jornada de aprendizado
 
