@@ -1,0 +1,49 @@
+Primeiro de tudo criei o repositório no github e clonei, em seguida preparei o wsl e o visual code.
+
+Instalei o docker desktop uma vez que todo o projeto foi feito num SO windows com subsistema linux.
+
+#CMD do windows
+O primeiro passo foi habilitar o banco de dados. Rodei um docker postgres, assim como no tutorial.
+
+#Bash
+instale o pipenv e iniciei. 
+>> pipenv shell
+depois criei a estrutura dos arquivos:
+>> mkdir -p src/entities 
+e instalei as libs 
+>> pipenv install sqlalchemy psycopg2-binary
+
+sqlalchemy é como faremos os schemas e  configuração da tabela.
+
+Tornamos o scr e entities modulos
+>> touch src/__init__.py
+>> touch src/entities/__init__.py
+
+Criamos os arquivos que conterão as classes
+
+>> touch src/entities/entity.py
+>> touch src/entities/exam.py
+
+Neste projeto só teremos uma entidade (ou tabela) "exam".
+Ambos os códigos para os dois scrips estão no tutorial.
+(Isso mesmo, copia e cola)
+
+Finalizado essa etapa, é hora de fazer o primeiro teste.
+
+crie o arquivo main.py para fazer uma simples edição no databasa.
+>> touch src/main.py
+
+saida :
+
+### Exams:
+(1) SQLAlchemy Exam - Test your knowledge about SQLAlchemy.
+faremos o primeiro commit 
+
+git add . && git commit -m "adding SQLAlchemy and some entities"
+
+Eu pessoalmente sou contra adicionar tudo "git add ."
+Então é sempre bom ter um .gitignore ou add file por file.
+>> touch .gitignore
+então adicione os arquivos que não precisam estar no github
+
+
