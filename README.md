@@ -10,7 +10,7 @@ Coloquei em [leituras interessantes](#-Leituras-interessantes.) alguns links que
 ### Parte 1
 O primeiro bug foi na main.py, uma propriedade de objeto que não existia ```data``` penas retirei o ".data" e não tive mais este problema.
 <div align="center">
-       <img width="100%" src="./imgs_bugs/bug_data.PNG" alt='bug-.data' width="50%" height="50%">
+       <img width="100%" src="./imgs_bugs/bug_data.PNG" alt='bug-.data' width="10" height="60">
 </div>
 
 ## Ambiente de desenvolvimento
